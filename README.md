@@ -25,7 +25,9 @@ Crawler/
 │   │   ├── validated_pilot1.json  # Pilot 1 video metadata and availability
 │   │   ├── validated_pilot1.csv
 │   │   ├── comment_audit_sample.csv # Random sample for manual quality checking
-│   │   └── comment_audit_stats.csv  # Audit summary
+│   │   ├── comment_audit_stats.csv  # Audit summary
+│   │   ├── relevance_sample_pilot.csv # Pilot relevance-annotation sample
+│   │   └── relevance_sample_stats.csv # Sample counts by video and comment type
 │   └── checkpoints/
 │       └── video_discovery.json   # Discovery progress; supports resuming
 ├── src/
@@ -36,7 +38,8 @@ Crawler/
 │   ├── video_validator.py         # Fetches video metadata and comment availability
 │   ├── validate_discovery.py      # Runs validation for discovered videos
 │   ├── comment_collector.py        # Collects top-level comments and replies into SQLite
-│   └── comment_audit.py            # Creates a sample and basic collection-quality statistics
+│   ├── comment_audit.py            # Creates a sample and basic collection-quality statistics
+│   └── create_relevance_sample.py  # Creates a balanced pilot sample for relevance annotation
 ├── .env                           # YouTube API key (never commit this file)
 ├── .gitignore
 └── requirements.txt
@@ -159,6 +162,32 @@ Review the sample for relevance, language variety, duplicates,
 empty/very short comments, and off-topic material before building the
 relevance and IIO classifiers.
 
+### Step 6 --- Create the relevance pilot sample
+
+Module: `src/create_relevance_sample.py`
+
+``` powershell
+python -m src.create_relevance_sample
+```
+
+This script reads non-empty comments from
+`data/raw/iio_comments.sqlite3` and creates a deterministic pilot sample
+with seed `42`. It attempts to select four comments per video: two
+top-level comments and two replies. If a video has fewer comments of one
+type, the script fills the remaining slots from the other type.
+
+Outputs:
+
+-   `data/processed/relevance_sample_pilot.csv` --- comments selected for
+    relevance annotation, with blank label and reviewer columns.
+-   `data/processed/relevance_sample_stats.csv` --- selected comment
+    counts by video and comment type.
+
+The pilot CSV includes fields for `relevance_label`, `context_type`,
+`reason`, `evidence_text`, and `reviewer_notes`. Use these fields to
+record human relevance decisions while preserving the original comment
+and video IDs for traceability.
+
 ## 4. Important research notes
 
 -   The current **26,422 comments are raw data**. Do not report them as
@@ -186,10 +215,12 @@ relevance and IIO classifiers.
   Pilot 1 video validation        Done
   Raw comment collection          Done --- 26,422 comments
   Comment quality audit           **Next**
+  Relevance pilot sample          Prepared --- run after the quality audit
   Relevance screening             Pending
   IIO multi-label annotation      Pending
   Human validation and analysis   Pending
 
-**Next action:** run `python -m src.comment_audit`, then review
-`comment_audit_sample.csv` and its statistics before implementing
-relevance screening.
+**Next actions:** run `python -m src.comment_audit`, review
+`comment_audit_sample.csv` and its statistics, then run
+`python -m src.create_relevance_sample` to prepare the pilot relevance
+annotation file.
