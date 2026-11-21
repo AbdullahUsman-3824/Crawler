@@ -1,0 +1,1653 @@
+{
+  "Issue": [
+    {
+      "element": "Impersonated Authority",
+      "definition": "Pretending to be a trusted person, official or expert, or claiming rank or legal power, so the victim obeys without checking.",
+      "forms": [
+        {
+          "code": "ISS01-F1",
+          "form": "Executive or rank",
+          "description": null,
+          "cue_phrases": [
+            "the CEO asked",
+            "as your manager",
+            "confidential transfer"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)",
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS01-F2",
+          "form": "Official or legal power",
+          "description": null,
+          "cue_phrases": [
+            "bank officer",
+            "tax office",
+            "legal notice",
+            "warrant"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS01-F3",
+          "form": "Claimed expert",
+          "description": null,
+          "cue_phrases": [
+            "certified trader",
+            "licensed advisor",
+            "verified"
+          ],
+          "sources": [
+            "Williams, Hinds & Joinson (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS01-F4",
+          "form": "Family or friend",
+          "description": null,
+          "cue_phrases": [
+            "it's me",
+            "new number",
+            "hacked account"
+          ],
+          "sources": [
+            "DeLiema, Gao, Brannock & Langton (2025)",
+            "Mirsky & Lee (2021)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS01-F5",
+          "form": "Cloned voice or fake video",
+          "description": null,
+          "cue_phrases": [
+            "sounded exactly like",
+            "video call",
+            "deepfake"
+          ],
+          "sources": [
+            "Mai, Bray, Davies & Griffin (2023)",
+            "Kietzmann, Lee, McCarthy & Kietzmann (2020)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Urgency",
+      "definition": "Time pressure that pushes the victim to act before verifying.",
+      "forms": [
+        {
+          "code": "ISS02-F1",
+          "form": "Hard deadline",
+          "description": null,
+          "cue_phrases": [
+            "within one hour",
+            "today only"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)",
+            "Williams, Hinds & Joinson (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS02-F2",
+          "form": "Loss threat",
+          "description": null,
+          "cue_phrases": [
+            "account will be frozen",
+            "blocked"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS02-F3",
+          "form": "Coercive pressure",
+          "description": null,
+          "cue_phrases": [
+            "last chance",
+            "few slots left",
+            "do it now or else",
+            "final warning"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS02-F4",
+          "form": "Secrecy plus speed",
+          "description": null,
+          "cue_phrases": [
+            "don't tell anyone",
+            "confidential, act now"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS02-F5",
+          "form": "Skipped checking",
+          "description": null,
+          "cue_phrases": [
+            "no time to verify",
+            "just send it",
+            "skip the process"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Emotional Manipulation",
+      "definition": "Building trust and using feelings to override careful judgement.",
+      "forms": [
+        {
+          "code": "ISS03-F1",
+          "form": "Long grooming",
+          "description": "Friendly contact for weeks before any request",
+          "cue_phrases": [
+            "we've talked for weeks",
+            "my dear"
+          ],
+          "sources": [
+            "Whitty (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS03-F2",
+          "form": "Reassurance after doubt",
+          "description": null,
+          "cue_phrases": [
+            "trust me",
+            "don't worry",
+            "I promise"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS03-F3",
+          "form": "Love or affection",
+          "description": null,
+          "cue_phrases": [
+            "I love you",
+            "my darling",
+            "our future"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)",
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS03-F4",
+          "form": "Fear",
+          "description": "The victim states the feeling",
+          "cue_phrases": [
+            "I was scared",
+            "I panicked",
+            "afraid of losing everything"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS03-F5",
+          "form": "Sympathy or distress",
+          "description": null,
+          "cue_phrases": [
+            "hospital",
+            "stuck abroad",
+            "please help"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Investment Lure",
+      "definition": "A promise of gain that draws victims into fake investments.",
+      "forms": [
+        {
+          "code": "ISS04-F1",
+          "form": "Guaranteed returns",
+          "description": null,
+          "cue_phrases": [
+            "guaranteed profit",
+            "100% safe"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)",
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS04-F2",
+          "form": "Very high or fast returns",
+          "description": null,
+          "cue_phrases": [
+            "double your money",
+            "10% daily",
+            "congratulations",
+            "quick profit"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)",
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS04-F3",
+          "form": "Insider shortcut",
+          "description": null,
+          "cue_phrases": [
+            "insider tip",
+            "private group"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS04-F4",
+          "form": "Fake platform or crypto app",
+          "description": null,
+          "cue_phrases": [
+            "download the app",
+            "USDT",
+            "trading platform"
+          ],
+          "sources": [
+            "Wang & Zhou (2023)",
+            "Han & Button (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS04-F5",
+          "form": "Fabricated success",
+          "description": "Fake profits, screenshots or testimonials",
+          "cue_phrases": [
+            "I withdrew",
+            "my profit",
+            "see my receipt"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Defense Gaps",
+      "definition": "Missing, weak or failed safeguards, by people, organizations or detection tools, that let a fake request through.",
+      "forms": [
+        {
+          "code": "ISS05-F1",
+          "form": "No second check",
+          "description": "One person can pay, no callback",
+          "cue_phrases": [
+            "I approved it myself",
+            "only by email",
+            "didn't call back"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS05-F2",
+          "form": "Unverified change request",
+          "description": "Payment details or contact details changed by message without checking",
+          "cue_phrases": [
+            "new bank details",
+            "changed account number",
+            "new email",
+            "updated invoice",
+            "personal email",
+            "WhatsApp"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS05-F3",
+          "form": "Authority discourages verification",
+          "description": "Staff do not question or check a request because it appears to come from someone senior",
+          "cue_phrases": [
+            "didn't dare question",
+            "he's the boss so I just did it",
+            "assumed it was already approved"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "ISS05-F4",
+          "form": "Missed or late detection",
+          "description": null,
+          "cue_phrases": [
+            "looked real",
+            "bank did not flag",
+            "found out later"
+          ],
+          "sources": [
+            "Mai, Bray, Davies & Griffin (2023)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS05-F5",
+          "form": "Unseen or evaded detection",
+          "description": null,
+          "cue_phrases": [
+            "new tool",
+            "never seen before",
+            "bypass the filter"
+          ],
+          "sources": [
+            "Wang, Liao, Chow, Lin & Wang (2024)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Financial Loss",
+      "definition": "Money lost through fraud.",
+      "forms": [
+        {
+          "code": "ISS06-F1",
+          "form": "Direct transfer",
+          "description": null,
+          "cue_phrases": [
+            "I sent",
+            "transferred",
+            "paid"
+          ],
+          "sources": [
+            "Burnes et al. (2017)",
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS06-F2",
+          "form": "Repeated payments",
+          "description": null,
+          "cue_phrases": [
+            "again, and again",
+            "processing fee"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS06-F3",
+          "form": "Business loss",
+          "description": null,
+          "cue_phrases": [
+            "company lost",
+            "million"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS06-F4",
+          "form": "Relationship-driven loss",
+          "description": null,
+          "cue_phrases": [
+            "my online partner asked",
+            "I gave him my savings"
+          ],
+          "sources": [
+            "Han & Button (2025)",
+            "Wang & Zhou (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS06-F5",
+          "form": "Indirect harm",
+          "description": null,
+          "cue_phrases": [
+            "heartbroken",
+            "ashamed",
+            "can't sleep"
+          ],
+          "sources": [
+            "Buchanan & Whitty (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Victim Vulnerability",
+      "definition": "Characteristics that make people more exposed to, or more harmed by, fraud.",
+      "forms": [
+        {
+          "code": "ISS07-F1",
+          "form": "Older age",
+          "description": null,
+          "cue_phrases": [
+            "my elderly father",
+            "pensioner"
+          ],
+          "sources": [
+            "Burnes et al. (2017)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS07-F2",
+          "form": "Loneliness",
+          "description": null,
+          "cue_phrases": [
+            "no one to ask",
+            "alone"
+          ],
+          "sources": [
+            "DeLiema, Gao, Brannock & Langton (2025)",
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS07-F3",
+          "form": "Financial fragility",
+          "description": null,
+          "cue_phrases": [
+            "needed money",
+            "desperate",
+            "debt"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)",
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS07-F4",
+          "form": "Low fraud knowledge",
+          "description": null,
+          "cue_phrases": [
+            "didn't know it was a scam",
+            "first time online"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "ISS07-F5",
+          "form": "Overconfidence",
+          "description": null,
+          "cue_phrases": [
+            "I thought I was too smart",
+            "I always check"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)",
+            "Williams, Beardmore & Joinson (2017)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    }
+  ],
+  "Intervention": [
+    {
+      "element": "Sender-identity check",
+      "definition": "A prompt that asks the reader to confirm who is really sending a message before acting.",
+      "forms": [
+        {
+          "code": "INT01-F1",
+          "form": "Callback to known number",
+          "description": null,
+          "cue_phrases": [
+            "I called his real number",
+            "rang the bank back"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT01-F2",
+          "form": "Two-factor confirmation",
+          "description": "Using two-factor authentication to confirm a request or account change",
+          "cue_phrases": [
+            "two-step login",
+            "OTP",
+            "authenticator"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT01-F3",
+          "form": "Official-source cross-check",
+          "description": null,
+          "cue_phrases": [
+            "checked the official website",
+            "looked up the company"
+          ],
+          "sources": [
+            "Robb & Wendel (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT01-F4",
+          "form": "Proof-of-identity question",
+          "description": null,
+          "cue_phrases": [
+            "asked for ID",
+            "asked a question only he would know"
+          ],
+          "sources": [
+            "Kietzmann, Lee, McCarthy & Kietzmann (2020)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT01-F5",
+          "form": "Deepfake or media check",
+          "description": null,
+          "cue_phrases": [
+            "ran it through a detector",
+            "checked the video",
+            "wanted a live call"
+          ],
+          "sources": [
+            "Wang, Liao, Chow, Lin & Wang (2024)",
+            "Mai, Bray, Davies & Griffin (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Pressure-phrase alert",
+      "definition": "A warning that highlights deadline and pressure wording so the reader pauses.",
+      "forms": [
+        {
+          "code": "INT02-F1",
+          "form": "Pause before paying",
+          "description": null,
+          "cue_phrases": [
+            "I waited a day",
+            "took time to think"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT02-F2",
+          "form": "Scam-type forewarning",
+          "description": null,
+          "cue_phrases": [
+            "I'd been warned about this scam",
+            "the bank had told me"
+          ],
+          "sources": [
+            "Scheibe et al. (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT02-F3",
+          "form": "Highlighted deadline wording",
+          "description": null,
+          "cue_phrases": [
+            "the alert flagged 'act now'",
+            "warning on urgent messages"
+          ],
+          "sources": [
+            "Williams, Hinds & Joinson (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT02-F4",
+          "form": "Inoculation training",
+          "description": null,
+          "cue_phrases": [
+            "I'd done a scam-awareness course",
+            "practice scam emails"
+          ],
+          "sources": [
+            "Robb & Wendel (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT02-F5",
+          "form": "Refresher reminder",
+          "description": null,
+          "cue_phrases": [
+            "got a reminder",
+            "occasional warning emails"
+          ],
+          "sources": [
+            "Burke, Kieffer, Mottola & Perez-Arce (2022)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Conversation-turn alert",
+      "definition": "A warning at the point where a friendly chat turns into a request for money.",
+      "forms": [
+        {
+          "code": "INT03-F1",
+          "form": "First money request flag",
+          "description": null,
+          "cue_phrases": [
+            "the moment he asked for money",
+            "the alert said it's a scam sign"
+          ],
+          "sources": [
+            "Whitty (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT03-F2",
+          "form": "Grooming-stage warning",
+          "description": null,
+          "cue_phrases": [
+            "warned about slow friendly build-up",
+            "romance scam signs"
+          ],
+          "sources": [
+            "Whitty (2013)",
+            "Cross, Dragiewicz & Richards (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT03-F3",
+          "form": "Tell someone",
+          "description": null,
+          "cue_phrases": [
+            "I told my daughter",
+            "asked a friend"
+          ],
+          "sources": [
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT03-F4",
+          "form": "Romance-scam education",
+          "description": null,
+          "cue_phrases": [
+            "I read about romance scams before"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT03-F5",
+          "form": "Report the contact",
+          "description": "The reader reports the profile, account or approach",
+          "cue_phrases": [
+            "reported the profile",
+            "flagged the account",
+            "reported it to the police"
+          ],
+          "sources": [
+            "Koning, Junger & Veldkamp (2025)",
+            "Cross (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        }
+      ]
+    },
+    {
+      "element": "Return-claim warning",
+      "definition": "A warning that picks out promised returns and flags them.",
+      "forms": [
+        {
+          "code": "INT04-F1",
+          "form": "Too-good-to-be-true flag",
+          "description": null,
+          "cue_phrases": [
+            "guaranteed returns should be a red flag",
+            "10% daily is impossible"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)",
+            "Burke, Kieffer, Mottola & Perez-Arce (2022)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT04-F2",
+          "form": "Technique education",
+          "description": null,
+          "cue_phrases": [
+            "video explained fake credibility and scarcity"
+          ],
+          "sources": [
+            "Burke, Kieffer, Mottola & Perez-Arce (2022)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT04-F3",
+          "form": "Licence or platform check",
+          "description": null,
+          "cue_phrases": [
+            "checked if the platform is licensed",
+            "checked the regulator list"
+          ],
+          "sources": [
+            "DeLiema, Shadel & Pak (2020)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT04-F4",
+          "form": "Testimonial scepticism",
+          "description": null,
+          "cue_phrases": [
+            "everyone posting profits was fake",
+            "ignored the group"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT04-F5",
+          "form": "Investor forewarning",
+          "description": null,
+          "cue_phrases": [
+            "I'd been warned about investment scams"
+          ],
+          "sources": [
+            "Scheibe et al. (2014)",
+            "DeLiema, Shadel & Pak (2020)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Second-check prompt",
+      "definition": "A step that asks for a callback or second approval before money moves.",
+      "forms": [
+        {
+          "code": "INT05-F1",
+          "form": "Second approver",
+          "description": null,
+          "cue_phrases": [
+            "needs two people to approve",
+            "my manager signed off"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT05-F2",
+          "form": "Verification callback",
+          "description": null,
+          "cue_phrases": [
+            "we call back before any transfer"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT05-F3",
+          "form": "Strong authentication",
+          "description": null,
+          "cue_phrases": [
+            "multifactor authentication stopped it"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT05-F4",
+          "form": "Staff training",
+          "description": null,
+          "cue_phrases": [
+            "we had fraud training",
+            "no one trained us"
+          ],
+          "sources": [
+            "Hillman, Harel & Toch (2023)",
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT05-F5",
+          "form": "Bank warning message",
+          "description": "A generic fraud warning sent by the bank, not shown at the moment of payment",
+          "cue_phrases": [
+            "the bank warned me",
+            "got a warning message from my bank",
+            "bank sent a fraud alert"
+          ],
+          "sources": [
+            "Jensen, Gerlings & Ferwerda (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        }
+      ]
+    },
+    {
+      "element": "Amount-grading",
+      "definition": "A tool that reads the amount asked for and grades the loss as low, medium or high.",
+      "forms": [
+        {
+          "code": "INT06-F1",
+          "form": "Small-sum flag",
+          "description": null,
+          "cue_phrases": [
+            "only a small amount at first",
+            "just a small fee"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)",
+            "Han & Button (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "INT06-F2",
+          "form": "Extra approval for large payments",
+          "description": "Larger payments need an additional approval before they are sent",
+          "cue_phrases": [
+            "large transfer held",
+            "needed extra approval for the amount",
+            "over the limit needed sign-off"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT06-F3",
+          "form": "Running-total tracker",
+          "description": null,
+          "cue_phrases": [
+            "added up to a lot",
+            "payments kept building"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT06-F4",
+          "form": "Fee-request flag",
+          "description": null,
+          "cue_phrases": [
+            "processing fee",
+            "release fee",
+            "tax to unlock"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT06-F5",
+          "form": "Limits for fragile customers",
+          "description": null,
+          "cue_phrases": [
+            "daily limit",
+            "extra check for pensioners"
+          ],
+          "sources": [
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Group-specific warnings",
+      "definition": "Warnings worded for the group the message targets, such as older adults or job seekers, without storing personal data.",
+      "forms": [
+        {
+          "code": "INT07-F1",
+          "form": "Older-adult warnings",
+          "description": null,
+          "cue_phrases": [
+            "warnings for seniors",
+            "my mother's bank warned her"
+          ],
+          "sources": [
+            "Burnes et al. (2017)",
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT07-F2",
+          "form": "Channel-specific warnings",
+          "description": null,
+          "cue_phrases": [
+            "SMS scam warning",
+            "email alert"
+          ],
+          "sources": [
+            "Robb & Wendel (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT07-F3",
+          "form": "Scam-type-matched warnings",
+          "description": null,
+          "cue_phrases": [
+            "warned about this exact scam"
+          ],
+          "sources": [
+            "Scheibe et al. (2014)",
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT07-F4",
+          "form": "Loneliness support",
+          "description": null,
+          "cue_phrases": [
+            "lonely people need a point of contact"
+          ],
+          "sources": [
+            "DeLiema, Gao, Brannock & Langton (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "INT07-F5",
+          "form": "Tailoring to knowledge level",
+          "description": null,
+          "cue_phrases": [
+            "simple video for beginners"
+          ],
+          "sources": [
+            "Burke, Kieffer, Mottola & Perez-Arce (2022)",
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    }
+  ],
+  "Outcome": [
+    {
+      "element": "Sender checked",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT01-F1",
+          "form": "Identity confirmed",
+          "description": null,
+          "cue_phrases": [
+            "he was who he said",
+            "bank confirmed it was real"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT01-F2",
+          "form": "Fake exposed",
+          "description": null,
+          "cue_phrases": [
+            "the callback proved it was fake",
+            "number didn't match"
+          ],
+          "sources": [
+            "Robb & Wendel (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT01-F3",
+          "form": "Paid without checking",
+          "description": null,
+          "cue_phrases": [
+            "I didn't check",
+            "paid straight away"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT01-F4",
+          "form": "Fake looked real",
+          "description": null,
+          "cue_phrases": [
+            "voice sounded exactly like him",
+            "video looked genuine"
+          ],
+          "sources": [
+            "Mai, Bray, Davies & Griffin (2023)",
+            "Kietzmann, Lee, McCarthy & Kietzmann (2020)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT01-F5",
+          "form": "Sender discouraged checking",
+          "description": "The sender makes checking hard or discourages it",
+          "cue_phrases": [
+            "refused a video call",
+            "wouldn't speak",
+            "said he was unreachable",
+            "keep it confidential"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Response to pressure",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT02-F1",
+          "form": "Paid within deadline",
+          "description": null,
+          "cue_phrases": [
+            "paid within the hour",
+            "sent it before the cutoff"
+          ],
+          "sources": [
+            "Stajano & Wilson (2011)",
+            "Williams, Hinds & Joinson (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT02-F2",
+          "form": "Paused and avoided",
+          "description": null,
+          "cue_phrases": [
+            "didn't rush",
+            "refused on the spot"
+          ],
+          "sources": [
+            "Scheibe et al. (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT02-F3",
+          "form": "Sceptical compliance",
+          "description": null,
+          "cue_phrases": [
+            "had doubts but still paid"
+          ],
+          "sources": [
+            "Scheibe et al. (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT02-F4",
+          "form": "Threat followed through",
+          "description": null,
+          "cue_phrases": [
+            "account was blocked anyway"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT02-F5",
+          "form": "Ignored and nothing happened",
+          "description": null,
+          "cue_phrases": [
+            "ignored it",
+            "never heard again"
+          ],
+          "sources": [
+            "DeLiema, Li & Mottola (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        }
+      ]
+    },
+    {
+      "element": "Chat-to-request shift",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT03-F1",
+          "form": "Request after weeks",
+          "description": null,
+          "cue_phrases": [
+            "after months he asked for money"
+          ],
+          "sources": [
+            "Whitty (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT03-F2",
+          "form": "Alert heeded",
+          "description": null,
+          "cue_phrases": [
+            "the warning made me stop"
+          ],
+          "sources": [
+            "Whitty (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT03-F3",
+          "form": "Paid despite warning",
+          "description": null,
+          "cue_phrases": [
+            "paid even after being warned"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT03-F4",
+          "form": "Cut contact",
+          "description": null,
+          "cue_phrases": [
+            "blocked him",
+            "ended it"
+          ],
+          "sources": [
+            "Cross, Dragiewicz & Richards (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT03-F5",
+          "form": "Pressure to continue",
+          "description": null,
+          "cue_phrases": [
+            "kept asking",
+            "threatened to leave"
+          ],
+          "sources": [
+            "Cross, Dragiewicz & Richards (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Result of a return promise",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT04-F1",
+          "form": "Lost deposit",
+          "description": null,
+          "cue_phrases": [
+            "my deposit disappeared"
+          ],
+          "sources": [
+            "Wang & Zhou (2023)",
+            "Han & Button (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT04-F2",
+          "form": "Account frozen or withdrawal blocked",
+          "description": "Victim cannot withdraw because the account is said to be frozen or suspended",
+          "cue_phrases": [
+            "couldn't withdraw",
+            "locked account",
+            "account suspended until I paid"
+          ],
+          "sources": [
+            "Wang & Zhou (2023)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT04-F3",
+          "form": "Extra fee demanded",
+          "description": null,
+          "cue_phrases": [
+            "asked for more to release my money"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT04-F4",
+          "form": "Declined offer",
+          "description": null,
+          "cue_phrases": [
+            "didn't invest",
+            "walked away"
+          ],
+          "sources": [
+            "Burke, Kieffer, Mottola & Perez-Arce (2022)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT04-F5",
+          "form": "Early small payout",
+          "description": null,
+          "cue_phrases": [
+            "first payout was real, then it stopped"
+          ],
+          "sources": [
+            "Fischer, Lea & Evans (2013)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Check result",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT05-F1",
+          "form": "Check skipped",
+          "description": null,
+          "cue_phrases": [
+            "no one double-checked",
+            "approved it myself"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT05-F2",
+          "form": "Check caught fraud",
+          "description": null,
+          "cue_phrases": [
+            "second approver noticed"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT05-F3",
+          "form": "Loss despite check",
+          "description": null,
+          "cue_phrases": [
+            "passed all checks",
+            "verification passed"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT05-F4",
+          "form": "Fake not flagged",
+          "description": null,
+          "cue_phrases": [
+            "system didn't flag it"
+          ],
+          "sources": [
+            "Wang, Liao, Chow, Lin & Wang (2024)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT05-F5",
+          "form": "Found late",
+          "description": null,
+          "cue_phrases": [
+            "found out days later"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Loss size",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT06-F1",
+          "form": "Small loss",
+          "description": null,
+          "cue_phrases": [
+            "lost a few dollars"
+          ],
+          "sources": [
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT06-F2",
+          "form": "Moderate loss",
+          "description": null,
+          "cue_phrases": [
+            "lost my savings"
+          ],
+          "sources": [
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT06-F3",
+          "form": "Large loss",
+          "description": null,
+          "cue_phrases": [
+            "lost over six figures"
+          ],
+          "sources": [
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT06-F4",
+          "form": "Business loss",
+          "description": null,
+          "cue_phrases": [
+            "company lost millions"
+          ],
+          "sources": [
+            "Almutairi, Kang & Alhashimy (2025)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT06-F5",
+          "form": "Gradual cumulative loss",
+          "description": null,
+          "cue_phrases": [
+            "payments built up over months"
+          ],
+          "sources": [
+            "Sorell & Whitty (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        }
+      ]
+    },
+    {
+      "element": "Reporting and recovery",
+      "definition": null,
+      "forms": [
+        {
+          "code": "OUT07-F1",
+          "form": "Reported to authority",
+          "description": null,
+          "cue_phrases": [
+            "reported to the police",
+            "filed a complaint"
+          ],
+          "sources": [
+            "Koning, Junger & Veldkamp (2025)",
+            "van de Weijer, Leukfeldt & Bernasco (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT07-F2",
+          "form": "Reported for justice or to protect others",
+          "description": "The victim says they reported to get justice or to stop others being harmed",
+          "cue_phrases": [
+            "I reported it so it wouldn't happen to others",
+            "wanted justice",
+            "to warn others"
+          ],
+          "sources": [
+            "Cross (2018)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT07-F3",
+          "form": "Not reported",
+          "description": null,
+          "cue_phrases": [
+            "too ashamed to tell anyone"
+          ],
+          "sources": [
+            "Koning, Junger & Veldkamp (2025)",
+            "van de Weijer, Leukfeldt & Bernasco (2019)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        },
+        {
+          "code": "OUT07-F4",
+          "form": "Psychological harm",
+          "description": null,
+          "cue_phrases": [
+            "depressed",
+            "can't trust anyone now"
+          ],
+          "sources": [
+            "Cross, Dragiewicz & Richards (2018)",
+            "Buchanan & Whitty (2014)",
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "READY"
+        },
+        {
+          "code": "OUT07-F5",
+          "form": "Family and relationship strain",
+          "description": "Fraud damages relationships with family or friends",
+          "cue_phrases": [
+            "my marriage suffered",
+            "family fell apart",
+            "lost friends"
+          ],
+          "sources": [
+            "Button, Lewis & Tapley (2014)"
+          ],
+          "index_verdict": "PASS",
+          "crawler_status": "REVIEW"
+        }
+      ]
+    }
+  ]
+}

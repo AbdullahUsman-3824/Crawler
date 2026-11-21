@@ -1,0 +1,30 @@
+﻿query_id,query_group,codebook_focus,search_query,language_focus,priority,pilot_batch,research_purpose
+Q001,Topic,AI/deepfake financial fraud,AI deepfake financial fraud,English,HIGH,Pilot 1,Broad anchor query for AI-enabled financial fraud.
+Q002,Topic,Voice cloning fraud,AI voice cloning money scam,English,HIGH,Pilot 1,Targets synthetic voice impersonation used to request money.
+Q003,Topic,Deepfake impersonation,deepfake CEO video call fraud,English,HIGH,Pilot 1,Targets executive impersonation and manipulated audiovisual media.
+Q004,Topic,Financial scam awareness,how deepfake scams steal money and how to detect them,English,MEDIUM,Pilot 2,Awareness material likely to discuss both tactics and safeguards.
+Q005,Issue,Impersonated Authority,bank officer impersonation scam money transfer,English,HIGH,Pilot 1,"Covers bank, official, executive, and expert impersonation."
+Q006,Issue,Urgency,urgent payment request business email compromise scam,English,HIGH,Pilot 1,Targets time pressure and rushed financial requests.
+Q007,Issue,Emotional Manipulation,family emergency voice cloning scam asking for money,English,HIGH,Pilot 1,"Targets trust, fear, family impersonation, and emotional pressure."
+Q008,Issue,Investment Lure,fake investment scam guaranteed returns withdrawal fee,English,HIGH,Pilot 1,"Targets unrealistic returns, advance fees, and blocked withdrawals."
+Q009,Issue,Defense Gaps,company failed to verify fraudulent wire transfer scam,English,MEDIUM,Pilot 2,"Targets failed verification, weak approval, and organizational safeguards."
+Q010,Issue,Financial Loss,victim lost money to deepfake financial scam,English,HIGH,Pilot 1,Targets first-person and reported financial-loss narratives.
+Q011,Issue,Victim Vulnerability,older adults targeted by AI voice financial scams,English,MEDIUM,Pilot 2,Targets group-specific exposure and vulnerability discussions.
+Q012,Intervention,Sender-identity check,how to verify caller identity before sending money scam,English,HIGH,Pilot 1,"Targets callback, known-number verification, and sender authentication."
+Q013,Intervention,Pressure-phrase alert,warning signs urgent payment scam pressure tactics,English,MEDIUM,Pilot 2,"Targets warnings about deadlines, secrecy, and pressure language."
+Q014,Intervention,Conversation-turn alert,romance scam conversation suddenly asks for money warning,English,MEDIUM,Pilot 2,Targets the shift from relationship-building to financial requests.
+Q015,Intervention,Return-claim warning,how to spot fake investment guaranteed returns scam,English,HIGH,Pilot 1,Targets warnings about promised returns and investment claims.
+Q016,Intervention,Second-check prompt,two person approval callback verify wire transfer fraud prevention,English,HIGH,Pilot 1,Targets independent confirmation and second-approval safeguards.
+Q017,Intervention,Amount-grading,financial scam loss amount risk warning tool,English,LOW,Pilot 3,Exploratory query; amount-grading may be more tool-specific than common video content.
+Q018,Intervention,Group-specific warnings,scam prevention advice older adults job seekers financial fraud,English,MEDIUM,Pilot 2,Targets warnings tailored to groups commonly targeted by scams.
+Q019,Outcome,Sender checked,deepfake scam caller verification revealed fake identity,English,HIGH,Pilot 1,Targets reported verification results and exposed impersonators.
+Q020,Outcome,Response to pressure,victim refused urgent money transfer scam request,English,MEDIUM,Pilot 2,"Targets compliance, refusal, delay, or resistance under pressure."
+Q021,Outcome,Chat-to-request shift,online relationship scam asks for money victim story,English,MEDIUM,Pilot 2,Targets the transition to financial requests and the target's response.
+Q022,Outcome,Result of a return promise,fake investment scam withdrawal blocked extra fees victim,English,HIGH,Pilot 1,"Targets consequences of return promises, fees, and failed withdrawals."
+Q023,Outcome,Check result,bank verification caught fraudulent wire transfer impersonation,English,HIGH,Pilot 1,Targets successful or failed verification and detection outcomes.
+Q024,Outcome,Loss size,deepfake scam victim lost millions financial loss story,English,HIGH,Pilot 1,Targets explicit loss magnitude and accumulated financial harm.
+Q025,Outcome,Reporting and post-fraud impact,online financial fraud victim reported police bank recovery stress,English,MEDIUM,Pilot 2,"Targets reporting, non-recovery discussion, and post-fraud impacts."
+Q026,Regional,Pakistan financial fraud,online banking fraud scam Pakistan,English,HIGH,Pilot 1,Adds Pakistan-specific financial-fraud coverage.
+Q027,Regional,Pakistan AI voice scam,AI voice cloning scam Pakistan Urdu,Mixed,MEDIUM,Pilot 2,"Targets local AI voice-scam discussion, including Urdu-language content."
+Q028,Regional,Pakistan investment fraud,investment scam victims Pakistan Urdu,Mixed,MEDIUM,Pilot 2,Adds regional investment-fraud and victim narratives.
+Q029,Regional,Pakistan bank impersonation,bank representative fake call fraud Pakistan,Mixed,MEDIUM,Pilot 2,Targets bank impersonation cases in the local context.
