@@ -2,7 +2,9 @@
 google-api-python-client
 python-dotenv
 pandas
+openpyxl
 tqdm
 tenacity
 scikit-learn
 vaderSentiment
+xlswriter

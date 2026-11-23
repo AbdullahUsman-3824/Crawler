@@ -69,7 +69,14 @@ def evidence(text, cue):
     return best[:200]
 
 
+# Cue phrases that validation sheet 2 showed to be mostly wrong (generic wording, wrong meaning).
+BLOCK_CUES = {"again, and again", "hacked account", "the bank had told me", "lost friends",
+              "didn't rush", "lost my savings", "company lost", "asked a friend",
+              "didn't invest", "wanted justice", "he was who he said"}
+
+
 def annotate(comments, cues):
+    cues = [c for c in cues if c["cue"] not in BLOCK_CUES]
     out = []
     for _, r in comments.iterrows():
         tokens = toks(r.comment_text)
