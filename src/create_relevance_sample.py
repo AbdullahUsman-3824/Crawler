@@ -46,6 +46,14 @@ def create_sample():
         ORDER BY c.video_id
     """).fetchall()
 
+    comment_text_by_id = {
+        row["comment_id"]: row["comment_text"]
+        for row in connection.execute("""
+            SELECT comment_id, comment_text
+            FROM comments
+        """).fetchall()
+    }
+
     connection.close()
 
     videos = defaultdict(lambda: {
@@ -86,6 +94,12 @@ def create_sample():
 
     randomizer.shuffle(selected)
 
+    for row in selected:
+        parent_id = row.get("parent_comment_id")
+        row["parent_comment_text"] = (
+            comment_text_by_id.get(parent_id, "") if parent_id else ""
+        )
+
     annotation_fields = [
         "relevance_label",
         "context_type",
@@ -99,6 +113,7 @@ def create_sample():
         "video_id",
         "video_title",
         "parent_comment_id",
+        "parent_comment_text",
         "comment_type",
         "comment_text",
         "published_at",

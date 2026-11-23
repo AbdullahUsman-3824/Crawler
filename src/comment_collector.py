@@ -3,6 +3,7 @@ import html
 import json
 import re
 import sqlite3
+import sys
 
 from pathlib import Path
 
@@ -17,6 +18,11 @@ DB_FILE = DATA_DIR / "raw" / "iio_comments.sqlite3"
 CSV_OUTPUT = DATA_DIR / "raw" / "collected_comments.csv"
 
 PAGE_SIZE = 100
+
+
+def safe_console_text(text):
+    encoding = getattr(sys.stdout, "encoding", None) or "utf-8"
+    return str(text).encode(encoding, errors="backslashreplace").decode(encoding)
 
 
 def clean_text(text):
@@ -82,7 +88,14 @@ def initialize_database():
 
 def load_candidate_videos():
     if not VIDEO_FILE.exists():
-        raise FileNotFoundError(VIDEO_FILE)
+        raise FileNotFoundError(
+            f"Validated video file not found: {VIDEO_FILE}\n"
+            "Run discovery and validation first:\n"
+            "  python -m src.main\n"
+            "  python -m src.validate_discovery\n"
+            "Then rerun collection:\n"
+            "  python -m src.comment_collector"
+        )
 
     candidates = []
 
@@ -345,7 +358,10 @@ def run_collection():
             print(f"[{index}/{len(videos)}] Skipping completed: {video_id}")
             continue
 
-        print(f"\n[{index}/{len(videos)}] " f"Collecting: {video['title'][:70]}")
+        print(
+            f"\n[{index}/{len(videos)}] "
+            f"Collecting: {safe_console_text(video['title'][:70])}"
+        )
 
         try:
             collect_video_comments(youtube, connection, video)
@@ -395,4 +411,8 @@ def run_collection():
     print(f"Database: {DB_FILE}")
 
     connection.close()
+
+
+if __name__ == "__main__":
+    run_collection()
 

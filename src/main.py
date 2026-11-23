@@ -1,4 +1,4 @@
-from src.comment_collector import run_collection
+from src.video_discovery import discover_videos
 
 if __name__ == "__main__":
-    run_collection()
+    discover_videos()

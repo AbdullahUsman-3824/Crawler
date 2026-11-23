@@ -175,6 +175,8 @@ This script reads non-empty comments from
 with seed `42`. It attempts to select four comments per video: two
 top-level comments and two replies. If a video has fewer comments of one
 type, the script fills the remaining slots from the other type.
+For replies, it also adds `parent_comment_text` by looking up the
+`parent_comment_id` in SQLite.
 
 Outputs:
 
@@ -224,3 +226,20 @@ and video IDs for traceability.
 `comment_audit_sample.csv` and its statistics, then run
 `python -m src.create_relevance_sample` to prepare the pilot relevance
 annotation file.
+
+
+## Quick pipeline (relevance screening, IIO cues, sentiment, relationships)
+
+Run from the project root, in this order. The raw SQLite database and `collected_comments.csv` are never modified.
+
+| Step | Command | Output (data/processed/) |
+|---|---|---|
+| Relevance screening (English only, rule-based) | `python -m src.relevance_screen data/raw/collected_comments.csv annotations/relevance_pilot_v1.1.csv` | `relevance_screened.csv`, `relevance_screen_stats.csv` |
+| IIO cue matching (preliminary labels) | `python -m src.iio_cues config/codebook.json data/processed/relevance_screened.csv` | `iio_annotations_long.csv`, `iio_annotations_wide.csv` |
+| Sentiment and emotion (`pip install vaderSentiment`) | `python -m src.sentiment_emotion data/processed/relevance_screened.csv` | `sentiment_emotion.csv` |
+| Relationships / predictive feasibility | `python -m src.predictive_models 0.5` | `predictive_feasibility.csv`, `iio_cooccurrence.csv` |
+| Agreement between annotators | `python -m src.agreement annotations/relevance_pilot_v1.1.csv annotations/annotator_B_done.csv` | `annotations/disagreements.csv` |
+
+Notes: `final_label` uses the human label when one exists, otherwise the rule-based label. IIO labels are automatic and
+need human validation (see `validation_sheet_*.csv`). Predictive models run only when enough multi-dimension comments exist.
+Annotation files live in `annotations/` (labels v1.1, guidelines v1.1, decisions log).

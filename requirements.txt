@@ -4,3 +4,5 @@ python-dotenv
 pandas
 tqdm
 tenacity
+scikit-learn
+vaderSentiment
